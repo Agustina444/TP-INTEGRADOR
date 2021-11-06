@@ -1,0 +1,137 @@
+
+body{			
+	font-family: system-ui;
+	background-image: url(fondo.jpg);
+	text-align: left;
+	font-weight: 400;
+}
+#titulo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
+	background-color: #e6e6e6de;
+}
+#imagen{
+	text-align: center;
+}
+select{
+	width: 100px;
+	height: 35px;
+	border: 1px solid #9e9e9e3d;
+	text-align: center;
+}
+.pregunta {
+	padding: 20px;
+	margin: auto; 
+	width: 650px;
+	border: 1px outset #ab262642; 
+	background: #F2F3F4;
+	margin-bottom: 50px;
+}
+.preg1, .preg2, .preg7{
+	padding: 10px;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto; 
+	height: 25px;
+	border: 1px outset #ab262642;
+	background: #F2F3F4; 
+	text-align: center;
+}
+.preg3, .preg4, .preg8 {
+	padding: 10px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto; 
+	height: auto;
+	border: 1px outset #ab262642;
+	background: #F2F3F4;
+	text-align: center;
+}
+.preg5_1, .preg5_2, .preg5_3, .preg5_4 {
+	padding: 8px;
+	margin-top: 9px;
+	margin-left: 25px; 
+	margin-right: 25px;
+	border: 1px outset #ab262642;
+	background: #F2F3F4;
+	text-align: center;
+}
+.preg6_1, .preg6_2, .preg6_3, .preg6_4 {
+	padding: 8px;
+	margin-top: 9px;
+	margin-left: 25px; 
+	margin-right: 25px;
+	border: 1px outset #ab262642;
+	background: #F2F3F4;
+	text-align: center;
+}
+.preg9_1, .preg9_2, .preg9_3, .preg9_4 {
+	padding: 8px;
+	margin-top: 9px;
+	margin-left: 25px; 
+	margin-right: 25px;
+	border: 1px outset #ab262642;
+	background: #F2F3F4;
+	text-align: center;
+}
+.preg1:hover, .preg2:hover, .preg3:hover, .preg4:hover{
+	border: 2px solid #F1C40F;
+	background: #e3ce70b0;
+}
+.preg5_1:hover, .preg5_2:hover, .preg5_3:hover, .preg5_4:hover{
+	border: 2px solid #F1C40F;
+	background: #e3ce70b0;
+}
+.preg6_1:hover, .preg6_2:hover, .preg6_3:hover, .preg6_4:hover{
+	border: 2px solid #F1C40F;
+	background: #e3ce70b0;
+}
+.preg7:hover, .preg8:hover{
+	border: 2px solid #F1C40F;
+	background: #e3ce70b0;
+}
+.preg9_1:hover, .preg9_2:hover, .preg9_3:hover, .preg9_4:hover {
+	border: 2px solid #F1C40F;
+	background: #e3ce70b0;
+}   
+.respcorrecta{
+	background: #96f119c4;
+	text-align: center;
+	margin-top: 15px;
+} 
+.respIncorrecta{
+	background: #ff0000b8;
+	text-align: center;
+	margin-top: 15px;
+}
+.btn { 
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 120%;
+	color: black;
+	background-color: #aab7b87d;
+	padding: 8px 12px;
+	margin-left:auto;
+	margin-right:auto; 
+	cursor: pointer;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ventanaPuntaje{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	background: #f6f0e5;
+	width: 400px;
+	height: auto;
+	padding: 33px;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+}

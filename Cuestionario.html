@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<link href="CuestionarioCss.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8">
+		<title> Test de Harry Potter </title>
+</head>
+
+<body>
+		<form action="Cuestionario.html" method="post" id="cuestionario">
+			<img src="titulo.png" id="titulo">
+			<div class= "pregunta">
+				<strong>1.</strong> ¿31/07/1980 es la fecha en la que nació Harry Potter?
+						<div class="preg1">	
+							<input type="radio" name="rpta1" value="Si" id="preg1opc1"/> 
+							<label for= "preg1opc1"> Si </label>
+						</div>
+						<div class="preg1">
+							<input type="radio" name="rpta1" value="No" id="preg1opc2"/>
+							<label for= "preg1opc2"> No </label>
+						</div>						
+			<div class= "respcorrecta" id="true1"> </div>	
+			<div class= "respIncorrecta" id="false1"> </div>		  
+			</div>
+
+			<div class= "pregunta"> 
+				<strong>2.</strong> ¿Sabías que la autora de los libros es una mujer?	
+						<div class="preg2">	
+							<input type="radio" name="rpta2" value="Si" id="preg2opc1"/> 
+							<label for= "preg2opc1" > Si </label>
+						</div>
+						<div class="preg2">	
+							<input type="radio" name="rpta2" value="No" id="preg2opc2"/>
+							<label for= "preg2opc2"> No </label>
+						</div>	
+			<div class= "respcorrecta" id="true2"> </div>	
+			<div class= "respIncorrecta" id="false2"> </div>							
+			</div>
+
+			<div class= "pregunta"> 
+				<strong>3.</strong> ¿En que año se estreno su primera película?
+						<div class="preg3">
+							<select name="anio" id="anio">
+								<option value="2001"> 2001 </option>
+								<option value="2002"> 2002 </option>
+								<option value="2004"> 2004 </option>
+								<option selected value="2005"> 2005 </option>
+							</select>	
+						</div>
+			<div class= "respcorrecta" id="true3"> </div>	
+			<div class= "respIncorrecta" id="false3"> </div>					
+			</div>
+						
+			<div class= "pregunta">
+				<strong>4.</strong> ¿Cómo se llama su 5to libro? 
+						<div class="preg4">
+							<label> Harry Potter y... </label>
+							<input type="text" name="libro" id="preg4" autocomplete="off"/>
+						</div>
+			<div class= "respcorrecta" id="true4"> </div>	
+			<div class= "respIncorrecta" id="false4"> </div>				
+			</div>
+
+			<div class= "pregunta"> 
+				<strong>5.</strong> ¿En cuántas películas fue director David Yates? (Más de una opción puede ser correcta)
+						<div class="preg5_1">
+							<input type="checkbox" name="nomdirector" id="preg5opc1">
+							<label for="preg5opc1"> La Orden del Fenix </label>
+						</div>
+						<div class="preg5_2">
+							<input type="checkbox" name="nomdirector" id="preg5opc2">
+							<label for="preg5opc2"> El Caliz de Fuego </label>
+						</div>
+						<div class="preg5_3">
+							<input type="checkbox" name="nomdirector" id="preg5opc3">
+							<label for="preg5opc3"> El Misterio del Principe </label>
+						</div>
+						<div class="preg5_4">		
+							<input type="checkbox" name="nomdirector" id="preg5opc4"/>
+							<label for="preg5opc4"> Reliquias de la Muerte Parte 1 y Parte 2</label>
+						</div>
+			<div class= "respcorrecta" id="true5"> </div>	
+			<div class= "respIncorrecta" id="false5"> </div>					
+			</div>
+
+			<div class= "pregunta"> 
+				<strong>6.</strong> El padre de Harry junto con sus 3 amigos tienen la capacidad de transformarse en "Animagos", a Sirius Black, ¿Cuál le corresponde?
+						<div class="preg6_1">
+							<input type="radio" name="tipoanimal" id="preg6opc1"/> 
+							<label for="preg6opc1" > Ciervo </label>
+						</div>		
+						<div class="preg6_2">
+							<input type="radio" name="tipoanimal" id="preg6opc2"/>
+							<label for= "preg6opc2"> Rata </label>
+						</div>
+						<div class="preg6_3">	
+							<input type="radio" name="tipoanimal" id="preg6opc3"/>
+							<label for="preg6opc3"> Perro </label>	
+						</div>
+						<div class="preg6_4">		
+							<input type="radio" name="tipoanimal" id="preg6opc4"/>
+							<label for="preg6opc4"> Hombre Lobo </label>
+						</div>	
+			<div class= "respcorrecta" id="true6"> </div>	
+			<div class= "respIncorrecta" id="false6"> </div>							
+			</div>
+	
+			<div class= "pregunta">
+				<strong>7.</strong> En Harry Potter y el Cáliz de Fuego realizan un evento legendario, ¿Cómo es el nombre de él?
+						<div class="preg7">	 
+							<input type="radio" name="evento" id="preg7opc1"/>
+							<label for= "preg7opc1"> El torneo de los Tres Magos </label>
+						</div>
+						<div class="preg7">	
+							<input type="radio" name="evento" id="preg7opc2"/>
+							<label for="preg7opc2"> El torneo de los Cuatro Magos </label>
+						</div>	
+			<div class= "respcorrecta" id="true7"> </div>	
+			<div class= "respIncorrecta" id="false7"> </div>				
+			</div>
+
+			<div class= "pregunta">
+				<strong>8.</strong> ¿Cuántos Horrocrux existen?
+						<div class="preg8">
+							<select name="cantidad" id="cantidad">
+								<option value="5"> 5 </option>
+								<option value="6"> 6 </option>
+								<option value="7"> 7 </option>
+								<option value="8"> 8 </option>
+							</select>	
+						</div>	
+			<div class= "respcorrecta" id="true8"> </div>	
+			<div class= "respIncorrecta" id="false8"> </div>	
+			</div>
+
+			<div class= "pregunta">
+				<strong>9.</strong> El colegio Hogwarts utiliza un Sistema de Casas, a cada estudiante se le asigna una de las 4 que existen, ¿A cuál pertenece Draco Malfoy?
+						<div class="preg9_1">
+							<input type="radio" name="tipocasa" id="preg9opc1"/>
+							<label for= "preg9opc1"> Gryffindor </label>
+						</div>
+						<div class="preg9_2">			
+							<input type="radio" name="tipocasa" id="preg9opc2"/>
+							<label for= "preg9opc2"> Ravenclaw </label>
+						</div>
+						<div class="preg9_3">	
+							<input type="radio" name="tipocasa" id="preg9opc3"/>
+							<label for= "preg9opc3"> Hufflepuff </label>
+						</div>
+						<div class="preg9_4">	
+							<input type="radio" name="tipocasa" id="preg9opc4"/>
+							<label for= "preg9opc4"> Slytherin </label>
+						</div>
+			<div class= "respcorrecta" id="true9"> </div>	
+			<div class= "respIncorrecta" id="false9"> </div>				
+			</div>
+			
+			<div class= "pregunta">
+				<strong>10.</strong> Los Mortífagos llevan tatuada la Marca Tenebrosa, ¿Cuál de estas imágenes es la correcta?
+					<div id="imagen">
+						<input type="radio" name="imagen" id="preg10opc1"/>
+						<label for="preg10opc1"> </label>
+						<img src="opc1.jpg" alt="HTML5">
+							
+						<input type="radio" name="imagen" id="preg10opc2"/>
+						<label for="preg10opc2"> </label>
+						<img src="opc2.png" alt="HTML5">		
+					</div>	
+			<div class= "respcorrecta" id="true10"> </div>	
+			<div class= "respIncorrecta" id="false10"> </div>		
+			</div>
+
+			<div class="ventanaPuntaje" id="ventanaPuntaje"></div>
+			<input type="submit" class="btn" id="btnEnviar" value="FINALIZAR"/>  
+			
+		</form>
+		<script src="CuestionarioJavaS.js"></script>
+</body>
+</html>
